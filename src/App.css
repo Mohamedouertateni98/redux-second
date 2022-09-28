@@ -1,0 +1,158 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Mohamedouertateni98 
+Mohamedouertateni98
+/
+redux
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+redux/src/App.css
+@Mohamedouertateni98
+Mohamedouertateni98 first commit
+Latest commit 008f2f5 yesterday
+ History
+ 1 contributor
+128 lines (108 sloc)  2.08 KB
+
+body {
+  background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(186,137,32,1) 100%);
+
+}
+
+.container1 {
+  margin-left: 12cm;
+  margin-top: 1cm;
+  
+  width: 15cm;
+  height: 17cm;
+  border-radius: 8px;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 12% 9% 74%;
+  position: absolute;
+
+} 
+
+ .container2 {
+  display: grid;
+  height: 1.1cm;
+  width: 15cm;
+  justify-content: center;
+  grid-template-columns: 80%15%;
+  grid-template-rows: 1fr;
+  margin-top: 0.5cm;
+  margin-left: 0.3cm;
+
+} 
+
+.container3 {
+  border: solid 2px;
+  display: grid;
+  height: 1cm;
+  background-color: rgba(105, 161, 211, 0.983);
+  border-radius: 7px;
+  align-items: center;
+  min-width: 14cm;
+  max-width: 14cm;
+  margin-left: 0.8cm
+}
+
+.container4 {
+  border: solid 2px;
+  background-color: rgba(141, 181, 222, 0.983);
+  border-radius: 7px;
+  overflow-y: auto;
+  min-width: 14cm;
+  max-width: 14cm;
+  margin-left: 0.8cm;
+}
+
+.container5 {
+
+  display: flex;
+  border: solid 2px;
+  padding: 2px;
+  margin-top: 0.2cm;
+  height: 1cm;
+  max-width: 13.6cm;
+  min-width: 13.6cm;
+  background-color: white;
+  border-radius: 7px;
+  align-content: space-between;
+  justify-content: end;
+  margin-left: 0.15cm;
+  overflow: hidden;
+
+
+}
+
+ textarea:focus,
+input:focus {
+  outline: none;
+} 
+
+ .container5 input {
+  text-align:end;
+}
+
+.container5 button {
+  display: grid;
+  background-color: green;
+  height: 0.68cm;
+  width: 0.72cm;
+  align-content: center;
+  justify-content: center;
+  margin-top: 0.08cm;
+  margin-right: 0.1cm;
+  margin-left: 0.1cm
+}
+
+.container5 button~button {
+  display: grid;
+  background-color: red;
+  height: 0.68cm;
+  width: 0.72cm;
+  align-content: center;
+  justify-content: center;
+  margin-top: 0.08cm;
+  margin-right: 0.1cm;
+  margin-left: 0.1cm
+} 
+
+.container3 div {
+  display: flex;
+  justify-content: space-evenly
+}
+
+.container3 a {
+  text-decoration: none;
+  color: white;
+  font-size: 21px;
+  font-weight: 500
+}
+
+.container2 button {
+  border-radius: 7px;
+  color: white;
+  border: black solid 1.7px;
+  background-color: rgb(145, 21, 231)
+}
+
+.container2 input {
+  text-align: center;
+  border-radius: 7px
+} 
+
